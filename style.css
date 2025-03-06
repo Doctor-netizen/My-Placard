@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'static';
+    src: url('./Font/static/Inter-Regular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+    overflow: hidden;
+}
+.containerAll {
+    background-color: #1f1f1f;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-block: 110px;
+    font-family: 'static';
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+h3{
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+h5{
+    margin-bottom: 15px;
+    color: #fff;
+    color: #8ea938;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: smaller;
+    color: #fff;
+}
+.links{
+    display: grid;
+    justify-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff ; 
+}
+
+.linkedin{
+    padding: 10px 105px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin-bottom: 15px;
+}
+
+.twitter{
+    padding: 10px 110px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin-bottom: 15px;
+}
+
+.whatsapp{
+    padding: 10px 97px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin-bottom: 15px;
+}
+
+.frontend{
+    padding: 10px 72px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin-bottom: 15px;
+}
+
+.github{
+    padding: 10px 108px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin-bottom: 50px;
+}
+
+.linkedin:hover{
+    color: #000 !important; 
+    background-color: #8ea938 ;
+}
+
+.twitter:hover{
+    color: #000 !important; 
+    background-color: #8ea938 ;
+}
+
+.whatsapp:hover{
+    color: #000 !important; 
+    background-color: #8ea938 ;
+}
+
+.frontend:hover{
+    color: #000 !important; 
+    background-color: #8ea938 ;
+}
+
+.github:hover{
+    color: #000 !important; 
+    background-color: #8ea938 ;
+}
+
+h1{
+    color: #fff;
+}
+
+h1{
+    color: aqua;
+}
+
+/* PHONE VIEW */
+@media (max-width:600px) {
+    .containerAll{
+        max-width: 300%;
+        margin: 0 auto;
+        margin-block: 150px;
+        /* overflow: hidden; */
+    }
+    img{
+        margin-top: 60px;
+    }
+
+    h3{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .linkedin{
+        padding: 8px 80px;
+    }
+    .twitter{
+        padding: 8px 85px;
+    }
+    .whatsapp{
+        padding: 8px 73px;
+    }
+    .frontend{
+        /* display: grid; */
+        padding: 8px 48px;
+        /* font: 5px; */
+    }
+    .github{
+        padding: 8px 85px;
+        
+    }
+}
+
+/* TAB VIEW */
+@media (min-width: 601px) and (max-width:736px) {
+    .containerAll{
+        /* max-width: 350%;
+        margin: 0 auto;
+        margin-block: 350px;
+        
+    }
+    img{
+        margin-top: 60px;
+    }
+
+    h3{
+        /* font-size: 335px; */
+        /* margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .linkedin{
+        padding: 8px 80px;
+    }
+    .twitter{
+        padding: 8px 85px;
+    }
+    .whatsapp{
+        padding: 8px 73px;
+    }
+    .frontend{
+        /* display: grid; */
+        /* padding: 8px 48px; */
+        /* font: 5px; */
+    /* }
+    .github{
+        padding: 8px 85px;
+        
+    }
+} */
