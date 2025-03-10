@@ -129,7 +129,7 @@ h1{
         max-width: 300%;
         margin: 0 auto;
         margin-block: 150px;
-        /* overflow: hidden; */
+
     }
     img{
         margin-top: 60px;
@@ -156,9 +156,7 @@ h1{
         padding: 8px 73px;
     }
     .frontend{
-        /* display: grid; */
         padding: 8px 48px;
-        /* font: 5px; */
     }
     .github{
         padding: 8px 85px;
@@ -166,45 +164,4 @@ h1{
     }
 }
 
-/* TAB VIEW */
-@media (min-width: 601px) and (max-width:736px) {
-    .containerAll{
-        /* max-width: 350%;
-        margin: 0 auto;
-        margin-block: 350px;
-        
-    }
-    img{
-        margin-top: 60px;
-    }
 
-    h3{
-        /* font-size: 335px; */
-        /* margin-top: 10px;
-        margin-bottom: 5px;
-    }
-    h5{
-        font-size: 12px;
-    }
-    p{
-        font-size: 10px;
-    }
-    .linkedin{
-        padding: 8px 80px;
-    }
-    .twitter{
-        padding: 8px 85px;
-    }
-    .whatsapp{
-        padding: 8px 73px;
-    }
-    .frontend{
-        /* display: grid; */
-        /* padding: 8px 48px; */
-        /* font: 5px; */
-    /* }
-    .github{
-        padding: 8px 85px;
-        
-    }
-} */
